@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "输入不为空", Toast.LENGTH_SHORT).show();
         } else {
             Bitmap b = EncodingUtils.createQRCode(intput, 500, 500, logo);
-            iv.setImageBitmap(b);
+            iv.setImageBitmap(b
+            );
         }
     }
 
